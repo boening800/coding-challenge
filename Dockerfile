@@ -1,5 +1,5 @@
 # imagen base
-FROM golang:1.22
+FROM golang:1.26-alpine
 
 # carpeta dentro del contenedor
 WORKDIR /app
